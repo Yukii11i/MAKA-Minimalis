@@ -107,7 +107,7 @@ Keputusan sebelumnya: **semua foto di Porto ditampilkan** (permintaan 10 Okt 202
 
 ## Belum selesai / perlu dicek
 
-- **Belum di-hosting.** Belum ada domain, belum ada git, dan belum ada konfigurasi deploy. Saat deploy, keluarkan folder `Porto/` dan `tools/`.
+- **Belum di-hosting.** Kode sudah ada di GitHub ([Yukii11i/MAKA-Minimalis](https://github.com/Yukii11i/MAKA-Minimalis), branch `main`), tetapi belum ada domain dan belum ada konfigurasi deploy. Saat deploy, keluarkan folder `Porto/` dan `tools/`.
 - `og:image` masih berupa path relatif (`assets/brand/og.jpg`). Supaya preview muncul di WhatsApp dan media sosial, path ini harus jadi URL absolut setelah domain ada. Tambahkan juga `og:url` dan `canonical`.
 - Belum ada SEO lokal lanjutan: structured data (LocalBusiness), `sitemap.xml`, dan `robots.txt`.
 - Belum ada analytics atau pelacakan klik tombol WhatsApp / Check Jadwal.
