@@ -6,7 +6,7 @@ Semua teks berbahasa Indonesia dengan nada santai dan hangat ("kamu", "kami", "c
 ## Tujuan website
 
 - Meyakinkan calon wisudawan bahwa mereka **tidak perlu jago pose** karena semua pose diarahkan dari awal sampai akhir sesi.
-- Menonjolkan foto bersama keluarga dan orang tersayang, hasil edit dalam **4–5 hari kerja**, dan **semua file original (RAW)** yang selalu termasuk.
+- Menonjolkan foto bersama keluarga dan orang tersayang, hasil edit dalam **4–5 hari kerja**, dan **semua file original (JPEG)** yang selalu termasuk.
 - Konversi utama: tombol **"Check Jadwal"** (membuka Google Spreadsheet jadwal) dan **chat WhatsApp**. Pesannya "ngobrol dulu, booking belakangan" — chat tidak mengikat.
 - Tagline: *"Toga dipakai sekali. Ceritanya selamanya."* Judul hero: *"Cerita Selamanya."*
 
@@ -49,7 +49,7 @@ Warna logo di `build_assets.py`: CREAM `(239,235,228)`, INK `(24,23,21)`.
 2. **Header**: wordmark "Maka *Project*", tombol "Check Jadwal", dan tombol Menu.
 3. **Hero**: bola 3D foto, judul "Cerita Selamanya.", dan teks bio. Tombol grid membuka **Arsip karya** (semua foto). Klik foto membuka **lightbox** (bisa pakai panah kiri/kanan dan swipe).
 4. `#cerita` **01 — Kenapa difoto**: manifesto.
-5. `#rasa` **02 — Yang kami jaga**: tiga keunggulan (tidak perlu jago pose, foto bersama keluarga, hasil cepat + RAW).
+5. `#rasa` **02 — Yang kami jaga**: tiga keunggulan (tidak perlu jago pose, foto bersama keluarga, hasil cepat + file original JPEG).
 6. **Strip**: semua foto dalam satu baris yang bergeser otomatis dan bisa digeser manual.
 7. `#alur` **03 — Cara kerjanya**: Chat dulu → Kunci jadwal → Datang & nikmati.
 8. `#paket` **04 — Paket** (tema krem).
@@ -69,8 +69,8 @@ Blok `/* GANTI DATA DI SINI */` di `<script>`:
 Array data lainnya:
 
 - `PACKAGES`:
-  - **Sesi 1 Jam**: Rp 200.000, 15 foto edit + RAW.
-  - **Sesi 2 Jam** (unggulan, `hi: true`): Rp 270.000, 25 foto edit + RAW.
+  - **Sesi 1 Jam**: Rp 200.000, 15 foto edit + semua file original (JPEG).
+  - **Sesi 2 Jam** (unggulan, `hi: true`): Rp 270.000, 25 foto edit + semua file original (JPEG).
   - **Extend**: Rp 50.000 / 20 menit, berlaku untuk kedua paket.
 - `FAQ`: 6 pertanyaan.
 - `PHOTOS`: daftar `[kode, rasio]`. **Harus sama dengan** `assets/photo/manifest.json`.
